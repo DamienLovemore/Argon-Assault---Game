@@ -170,6 +170,9 @@ MonoBehaviour:
   movementSpeed: 30.43
   xRange: 11
   yRange: 8
+  controlPitchFactor: -15
+  positionPitchFactor: -2
+  positionYawFactor: -2.2
 --- !u!1001 &1273270263196405679
 PrefabInstance:
   m_ObjectHideFlags: 0
