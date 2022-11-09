@@ -167,12 +167,13 @@ MonoBehaviour:
       m_Action: Player Movement
       m_Flags: 0
     m_Flags: 0
-  movementSpeed: 30.43
-  xRange: 11
-  yRange: 8
-  controlPitchFactor: -15
+  movementSpeed: 30
+  xRange: 15
+  yRange: 12
   positionPitchFactor: -2
+  controlPitchFactor: -15
   positionYawFactor: -2.2
+  controlRollFactor: -20
 --- !u!1001 &1273270263196405679
 PrefabInstance:
   m_ObjectHideFlags: 0
