@@ -7,6 +7,10 @@ public class PlayerControls : MonoBehaviour
 {
     [Header("Player Control Keys")]
     [SerializeField] private InputAction playerMovement;
+    [SerializeField] private InputAction playerFiring;
+
+    [Header("Laser Cannons")]
+    [SerializeField] private GameObject[] lasers;
 
     [Header("Movement Tuning")]
     [SerializeField] private float movementSpeed = 30.43f;
@@ -23,23 +27,26 @@ public class PlayerControls : MonoBehaviour
     private float yThrow;
         
     //When the script becomes enabled and active, sets the keys
-    //of movement to be listened
+    //of inputs to be listened
     void OnEnable()
     {
         playerMovement.Enable();
+        playerFiring.Enable();
     }
 
     //When the script is disabled/unloaded disables the keys
-    //listening for player movement
+    //listening for player inputs
     void OnDisable()
     {
         playerMovement.Disable();
+        playerFiring.Disable();
     }
 
     void FixedUpdate()
     {
         this.ShipMovement();
         this.ShipRotation();
+        this.ShipFiring();
     }
 
     private void ShipMovement()
@@ -94,5 +101,33 @@ public class PlayerControls : MonoBehaviour
         //it is not a free object
         //(Euler is used to represent rotations)
         transform.localRotation = Quaternion.Euler(pitch, yaw, roll); 
+    }
+
+    private void ShipFiring()
+    {
+        //Reads how much the fire key is being pressed. (For keyboards is just 0 or 1,
+        //but for controllers it is a value between 0 and 1, like 0.5 for example)
+        float playerInput = this.playerFiring.ReadValue<float>();
+
+        //If it is being pressed (indepentendly if it is keyboard or controller)
+        if (playerInput > 0.5)
+        {
+            this.SetLasersActive(true);
+        }
+        else
+        {
+            this.SetLasersActive(false);
+        }
+    }
+
+    private void SetLasersActive(bool isShootingLasers)
+    {
+        foreach (GameObject laserCannon in this.lasers)
+        {
+            //As we are not sure which type is the module of a component, we use
+            //var so the system take care of the type for us
+            var laserShooter = laserCannon.GetComponent<ParticleSystem>().emission;
+            laserShooter.enabled = isShootingLasers;
+        }
     }
 }
