@@ -4,14 +4,28 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    [Header("Explosion Effect")]
-    [Tooltip("The ParticleSystem used for the explosion visual effect")] [SerializeField] private GameObject explosionVFX;
+    [Header("Score Points")]
+    [Tooltip("How much score points the player gains for destroying this enemy")]
+    [SerializeField] private int scoreValue = 15;
 
-    //When the enemy is hit by a laser it play an
-    //explosion effect  and then it is destroyed
+    private ScoreBoard scoreManager;
+
+    //Gathers all the GameObjects references it needs to work
+    void Start() 
+    {
+        scoreManager = FindObjectOfType<ScoreBoard>();
+    }
+
     void OnParticleCollision(GameObject other)
     {
-        GameObject explosionEffect =  Instantiate(explosionVFX, this.transform.position, Quaternion.identity, this.transform);
-        Destroy(gameObject);
+        //If the particle that is hiting is a laser coming from the player,
+        //and not a particle from a explosion, it should increase the score
+        if (other.tag == "Laser Cannon")
+        {
+            scoreManager.IncreaseScore(this.scoreValue);
+            //Fixes problem where multiple lasers hit the enemy and it
+            //increases the score more then one time
+            this.scoreValue = 0;
+        }        
     }
 }

@@ -407,9 +407,10 @@ GameObject:
   - component: {fileID: 1252844450}
   - component: {fileID: 1252844454}
   - component: {fileID: 1252844455}
+  - component: {fileID: 1252844456}
   m_Layer: 0
   m_Name: Enemy Placeholder
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -524,6 +525,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93f5da0f1a4d13b46b53cf40eda80d09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scoreValue: 15
+--- !u!114 &1252844456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252844449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88cfe79c04b307f42a3926ddf73ee7f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   explosionVFX: {fileID: 3549597377412414756, guid: 6b253108e65bdc24480e73d98b0c2757, type: 3}
 --- !u!95 &1584853511 stripped
 Animator:
@@ -608,6 +622,50 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1773558290
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1773558292}
+  - component: {fileID: 1773558291}
+  m_Layer: 0
+  m_Name: ScoreBoard
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1773558291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1773558290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 828b766e9c5131e49bfa5d3dbc7e896b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1773558292
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1773558290}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &569326665606329838
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -662,6 +720,14 @@ PrefabInstance:
     - target: {fileID: 569326667188242408, guid: 3df8c62829cbff3498915fe1a2e9795f, type: 3}
       propertyPath: m_Name
       value: PlayerRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 2159077947580687959, guid: 3df8c62829cbff3498915fe1a2e9795f, type: 3}
+      propertyPath: m_TagString
+      value: Laser Cannon
+      objectReference: {fileID: 0}
+    - target: {fileID: 6207484998457061921, guid: 3df8c62829cbff3498915fe1a2e9795f, type: 3}
+      propertyPath: m_TagString
+      value: Laser Cannon
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3df8c62829cbff3498915fe1a2e9795f, type: 3}
