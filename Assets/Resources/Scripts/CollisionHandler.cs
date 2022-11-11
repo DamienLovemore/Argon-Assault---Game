@@ -5,7 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class CollisionHandler : MonoBehaviour
 {
-    [SerializeField] private float delayTime = 1f;
+    [Header("Explosion Effect")]
+    [Tooltip("The ParticleSystem used for the explosion visual effect")] [SerializeField] private ParticleSystem explosionVFX;  
+    [Tooltip("The amount of seconds to await before restarting game on collision")] [SerializeField] private float delayTime = 1f;
 
     private PlayerControls playerInputHandler;
 
@@ -21,7 +23,13 @@ public class CollisionHandler : MonoBehaviour
 
     private IEnumerator PlayerShipCrash()
     {
-        playerInputHandler.enabled = false;        
+        explosionVFX.Play();
+        foreach(MeshRenderer renderer in GetComponentsInChildren<MeshRenderer>())
+        {
+            renderer.enabled = false;
+        }
+        GetComponent<BoxCollider>().enabled = false;
+        playerInputHandler.enabled = false; 
         yield return new WaitForSeconds(this.delayTime);
 
         Scene currentScene = SceneManager.GetActiveScene();

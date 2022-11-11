@@ -524,6 +524,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93f5da0f1a4d13b46b53cf40eda80d09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  explosionVFX: {fileID: 3549597377412414756, guid: 6b253108e65bdc24480e73d98b0c2757, type: 3}
 --- !u!95 &1584853511 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 569326667188242409, guid: 3df8c62829cbff3498915fe1a2e9795f, type: 3}
