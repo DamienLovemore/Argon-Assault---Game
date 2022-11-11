@@ -840,7 +840,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1459098365709111659}
+  - component: {fileID: 4704946790074448118}
+  - component: {fileID: 6873058461980060437}
   - component: {fileID: 1459098365709111656}
+  - component: {fileID: 2983218139858943781}
   m_Layer: 0
   m_Name: Player Ship
   m_TagString: Player
@@ -883,6 +886,35 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &4704946790074448118
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1459098365709111658}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 9.921462, y: 2.2, z: 11.612605}
+  m_Center: {x: 0.10554837, y: 0.3, z: -0.14035557}
+--- !u!54 &6873058461980060437
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1459098365709111658}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &1459098365709111656
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1051,6 +1083,18 @@ MonoBehaviour:
   controlPitchFactor: -15
   positionYawFactor: -2.2
   controlRollFactor: -20
+--- !u!114 &2983218139858943781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1459098365709111658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f66a07fa21d70d4eb9c7cc70b85e536, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1459098365793476648
 GameObject:
   m_ObjectHideFlags: 0
