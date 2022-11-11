@@ -6,16 +6,22 @@ using UnityEngine.InputSystem;
 public class PlayerControls : MonoBehaviour
 {
     [Header("Player Control Keys")]
-    [Tooltip("The inputs that the game should use for movement")] [SerializeField] private InputAction playerMovement;
-    [Tooltip("The inputs that the game should use for firing")] [SerializeField] private InputAction playerFiring;
+    [Tooltip("The inputs that the game should use for movement")]
+    [SerializeField] private InputAction playerMovement;
+    [Tooltip("The inputs that the game should use for firing")]
+    [SerializeField] private InputAction playerFiring;
 
     [Header("Laser Cannons")]
-    [Tooltip("The GameObjects that contains the ship laser cannons")] [SerializeField] private GameObject[] lasers;
+    [Tooltip("The GameObjects that contains the ship laser cannons")]
+    [SerializeField] private GameObject[] lasers;
 
     [Header("Movement Tuning")]
-    [Tooltip("How fast the ship moves with the user input")] [SerializeField] private float movementSpeed = 30.43f;
-    [Tooltip("How far in the horizontal axis the ship can go")] [SerializeField] private float xRange = 10f;
-    [Tooltip("How far in the vertical axis the ship can go")] [SerializeField] private float yRange = 7f;
+    [Tooltip("How fast the ship moves with the user input")]
+    [SerializeField] private float movementSpeed = 30.43f;
+    [Tooltip("How far in the horizontal axis the ship can go")]
+    [SerializeField] private float xRange = 10f;
+    [Tooltip("How far in the vertical axis the ship can go")]
+    [SerializeField] private float yRange = 7f;
 
     [Header("Rotation Tuning")]
     [SerializeField] private float positionPitchFactor = -2f;

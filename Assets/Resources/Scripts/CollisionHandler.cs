@@ -6,8 +6,10 @@ using UnityEngine.SceneManagement;
 public class CollisionHandler : MonoBehaviour
 {
     [Header("Explosion Effect")]
-    [Tooltip("The ParticleSystem used for the explosion visual effect")] [SerializeField] private ParticleSystem explosionVFX;  
-    [Tooltip("The amount of seconds to await before restarting game on collision")] [SerializeField] private float delayTime = 1f;
+    [Tooltip("The ParticleSystem used for the explosion visual effect")]
+    [SerializeField] private ParticleSystem explosionVFX;  
+    [Tooltip("The amount of seconds to await before restarting game on collision")]
+    [SerializeField] private float delayTime = 1f;
 
     private PlayerControls playerInputHandler;
 

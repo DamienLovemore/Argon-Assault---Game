@@ -5,7 +5,8 @@ using UnityEngine;
 public class SelfDestruct : MonoBehaviour
 {
     [Header("Explosion Effect")]
-    [Tooltip("The ParticleSystem used for the explosion visual effect")] [SerializeField] private GameObject explosionVFX;
+    [Tooltip("The ParticleSystem used for the explosion visual effect")]
+    [SerializeField] private GameObject explosionVFX;
 
     //When the enemy is hit by a laser it play an
     //explosion effect  and then it is destroyed
