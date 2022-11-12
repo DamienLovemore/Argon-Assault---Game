@@ -51,9 +51,8 @@ public class Enemy : MonoBehaviour
 
         //Decreases the hit points and destroy this enemy when
         //health points is zero
-        if (this.hitPoints > 0)
-            this.hitPoints -= 1;
-        else
+        this.hitPoints -= 1;
+        if (this.hitPoints == 0)
             this.EnemyDeath();
     }
 
