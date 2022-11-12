@@ -24,6 +24,17 @@ public class Enemy : MonoBehaviour
     void Start() 
     {
         scoreManager = FindObjectOfType<ScoreBoard>();
+        this.AddRigidbody();        
+    }
+
+    private void AddRigidbody()
+    {
+        //When adding a rigidbody to a gameobject it automatically
+        //takes in cosideration all of its child colliders, without
+        //us having to write to code to search all of it
+        Rigidbody enemyRigidbody = this.gameObject.AddComponent<Rigidbody>();
+        //Disable gravity so the enemy is able to fly
+        enemyRigidbody.useGravity = false;
     }
 
     //Handles all the stuff that should happen when the enemy
