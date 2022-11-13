@@ -24,7 +24,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 441481054441662735}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -113,6 +113,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pest
       objectReference: {fileID: 0}
+    - target: {fileID: 7544656613756766002, guid: dabe68f19d9689d46b885a69059a6365, type: 3}
+      propertyPath: explosionFX
+      value: 
+      objectReference: {fileID: 3549597377412414756, guid: 6b253108e65bdc24480e73d98b0c2757, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dabe68f19d9689d46b885a69059a6365, type: 3}
 --- !u!4 &5431669049707856346 stripped
@@ -152,6 +156,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 441481054441662732}
     m_Modifications:
+    - target: {fileID: -5609649170829490934, guid: b02cca35429067248bbc359ac725410e, type: 3}
+      propertyPath: explosionFX
+      value: 
+      objectReference: {fileID: 3549597377412414756, guid: 6b253108e65bdc24480e73d98b0c2757, type: 3}
     - target: {fileID: 2992032227129179000, guid: b02cca35429067248bbc359ac725410e, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -239,6 +247,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 441481054441662732}
     m_Modifications:
+    - target: {fileID: -5609649170829490934, guid: b02cca35429067248bbc359ac725410e, type: 3}
+      propertyPath: explosionFX
+      value: 
+      objectReference: {fileID: 3549597377412414756, guid: 6b253108e65bdc24480e73d98b0c2757, type: 3}
     - target: {fileID: 2992032227129179000, guid: b02cca35429067248bbc359ac725410e, type: 3}
       propertyPath: m_RootOrder
       value: 0

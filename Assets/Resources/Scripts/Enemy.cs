@@ -10,7 +10,7 @@ public class Enemy : MonoBehaviour
 
     [Header("Visual Effects")]
     [Tooltip("The ParticleSystem used for the explosion visual effect")]
-    [SerializeField] private GameObject explosionVFX;
+    [SerializeField] private GameObject explosionFX;
     [Tooltip("The ParticleSystem used for the hit visual effect")]
     [SerializeField] private GameObject hitVFX;
 
@@ -77,7 +77,7 @@ public class Enemy : MonoBehaviour
     //Plays an effect and destroyes the enemy and the effect created after
     private void EnemyDeath()
     {
-        GameObject explosionEffect =  Instantiate(explosionVFX, this.transform.position, Quaternion.identity);
+        GameObject explosionEffect =  Instantiate(explosionFX, this.transform.position, Quaternion.identity);
         Destroy(explosionEffect, 1f);
         Destroy(gameObject);
     }

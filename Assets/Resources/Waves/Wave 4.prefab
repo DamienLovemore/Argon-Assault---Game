@@ -71,6 +71,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8640428519566166751}
     m_Modifications:
+    - target: {fileID: 3924045499669354799, guid: 726c238a211a43444a88fdafaf0e9a9b, type: 3}
+      propertyPath: explosionFX
+      value: 
+      objectReference: {fileID: 3549597377412414756, guid: 6b253108e65bdc24480e73d98b0c2757, type: 3}
     - target: {fileID: 5738357237125203669, guid: 726c238a211a43444a88fdafaf0e9a9b, type: 3}
       propertyPath: m_Name
       value: Whoppa
@@ -230,6 +234,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pest (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7544656613756766002, guid: dabe68f19d9689d46b885a69059a6365, type: 3}
+      propertyPath: explosionFX
+      value: 
+      objectReference: {fileID: 3549597377412414756, guid: 6b253108e65bdc24480e73d98b0c2757, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dabe68f19d9689d46b885a69059a6365, type: 3}
 --- !u!1 &4225198199313039904 stripped
@@ -329,6 +337,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pest (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7544656613756766002, guid: dabe68f19d9689d46b885a69059a6365, type: 3}
+      propertyPath: explosionFX
+      value: 
+      objectReference: {fileID: 3549597377412414756, guid: 6b253108e65bdc24480e73d98b0c2757, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dabe68f19d9689d46b885a69059a6365, type: 3}
 --- !u!1 &4225198199144346394 stripped
@@ -428,6 +440,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pest (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7544656613756766002, guid: dabe68f19d9689d46b885a69059a6365, type: 3}
+      propertyPath: explosionFX
+      value: 
+      objectReference: {fileID: 3549597377412414756, guid: 6b253108e65bdc24480e73d98b0c2757, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dabe68f19d9689d46b885a69059a6365, type: 3}
 --- !u!1 &4225198198658465485 stripped
@@ -527,6 +543,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pest
       objectReference: {fileID: 0}
+    - target: {fileID: 7544656613756766002, guid: dabe68f19d9689d46b885a69059a6365, type: 3}
+      propertyPath: explosionFX
+      value: 
+      objectReference: {fileID: 3549597377412414756, guid: 6b253108e65bdc24480e73d98b0c2757, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dabe68f19d9689d46b885a69059a6365, type: 3}
 --- !u!1 &4225198198266369499 stripped

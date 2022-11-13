@@ -66,6 +66,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2280021915063698546}
     m_Modifications:
+    - target: {fileID: -8386740799473714421, guid: c0e95f7f17a39a54da3c5cee4d94cca1, type: 3}
+      propertyPath: explosionFX
+      value: 
+      objectReference: {fileID: 3549597377412414756, guid: 6b253108e65bdc24480e73d98b0c2757, type: 3}
     - target: {fileID: 3724967918158577368, guid: c0e95f7f17a39a54da3c5cee4d94cca1, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -205,6 +209,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Viper
       objectReference: {fileID: 0}
+    - target: {fileID: 4287413205799119098, guid: be521659cf5702c47b3e577bd899c09f, type: 3}
+      propertyPath: explosionFX
+      value: 
+      objectReference: {fileID: 3549597377412414756, guid: 6b253108e65bdc24480e73d98b0c2757, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: be521659cf5702c47b3e577bd899c09f, type: 3}
 --- !u!4 &3945304607781341931 stripped
@@ -306,8 +314,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4287413205799119098, guid: be521659cf5702c47b3e577bd899c09f, type: 3}
       propertyPath: hitPoints
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 4287413205799119098, guid: be521659cf5702c47b3e577bd899c09f, type: 3}
+      propertyPath: explosionFX
+      value: 
+      objectReference: {fileID: 3549597377412414756, guid: 6b253108e65bdc24480e73d98b0c2757, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: be521659cf5702c47b3e577bd899c09f, type: 3}
 --- !u!4 &3945304607797596995 stripped
