@@ -9,8 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2992032227129179000}
-  - component: {fileID: -5609649170829490934}
   - component: {fileID: 9146519532796399140}
+  - component: {fileID: -5609649170829490934}
   m_Layer: 0
   m_Name: Scout
   m_TagString: Untagged
@@ -47,22 +47,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &-5609649170829490934
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2994904204467320546}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93f5da0f1a4d13b46b53cf40eda80d09, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hitPoints: 4
-  explosionVFX: {fileID: 3549597377412414756, guid: 6b253108e65bdc24480e73d98b0c2757, type: 3}
-  hitVFX: {fileID: 3549597377412414756, guid: 8ba6b2ec3f53f614b928290b106172c6, type: 3}
-  scoreValue: 50
 --- !u!65 &9146519532796399140
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -76,6 +60,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 9.653144, y: 1.3680791, z: 13.039718}
   m_Center: {x: 0.02916124, y: -0.18403873, z: 0.07215391}
+--- !u!114 &-5609649170829490934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2994904204467320546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93f5da0f1a4d13b46b53cf40eda80d09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitPoints: 4
+  explosionFX: {fileID: 0}
+  hitVFX: {fileID: 3549597377412414756, guid: 8ba6b2ec3f53f614b928290b106172c6, type: 3}
+  scoreValue: 50
 --- !u!1001 &261691093092224797
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -9,8 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2982731475551175871}
-  - component: {fileID: 4287413205799119098}
   - component: {fileID: 2941561765786407343}
+  - component: {fileID: 4287413205799119098}
   m_Layer: 0
   m_Name: Viper
   m_TagString: Untagged
@@ -58,22 +58,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4287413205799119098
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2985296378175463035}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93f5da0f1a4d13b46b53cf40eda80d09, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hitPoints: 10
-  explosionVFX: {fileID: 3549597377412414756, guid: 6b253108e65bdc24480e73d98b0c2757, type: 3}
-  hitVFX: {fileID: 3549597377412414756, guid: 8ba6b2ec3f53f614b928290b106172c6, type: 3}
-  scoreValue: 80
 --- !u!65 &2941561765786407343
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -87,6 +71,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 11.2562475, y: 2.19589, z: 12.900408}
   m_Center: {x: 0.1691165, y: 0.597945, z: 0.32165313}
+--- !u!114 &4287413205799119098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2985296378175463035}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93f5da0f1a4d13b46b53cf40eda80d09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitPoints: 10
+  explosionFX: {fileID: 0}
+  hitVFX: {fileID: 3549597377412414756, guid: 8ba6b2ec3f53f614b928290b106172c6, type: 3}
+  scoreValue: 80
 --- !u!1001 &893042931397400783
 PrefabInstance:
   m_ObjectHideFlags: 0

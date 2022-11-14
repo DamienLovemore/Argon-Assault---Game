@@ -9,8 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3724967918158577368}
-  - component: {fileID: -8386740799473714421}
   - component: {fileID: 7703901013602327443}
+  - component: {fileID: -8386740799473714421}
   m_Layer: 0
   m_Name: Rocket
   m_TagString: Untagged
@@ -43,22 +43,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &-8386740799473714421
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3727661196733964574}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93f5da0f1a4d13b46b53cf40eda80d09, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hitPoints: 2
-  explosionVFX: {fileID: 3549597377412414756, guid: 6b253108e65bdc24480e73d98b0c2757, type: 3}
-  hitVFX: {fileID: 3549597377412414756, guid: 8ba6b2ec3f53f614b928290b106172c6, type: 3}
-  scoreValue: 60
 --- !u!65 &7703901013602327443
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -72,6 +56,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 6.6158805, y: 1.8056288, z: 14.611969}
   m_Center: {x: -0.07159829, y: 0.4028144, z: 0.22397041}
+--- !u!114 &-8386740799473714421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3727661196733964574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93f5da0f1a4d13b46b53cf40eda80d09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitPoints: 2
+  explosionFX: {fileID: 0}
+  hitVFX: {fileID: 3549597377412414756, guid: 8ba6b2ec3f53f614b928290b106172c6, type: 3}
+  scoreValue: 60
 --- !u!1001 &145253248194091264
 PrefabInstance:
   m_ObjectHideFlags: 0

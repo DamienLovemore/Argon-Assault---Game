@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5323855054794962158}
   - component: {fileID: 5323855054794962155}
   - component: {fileID: 1856002440}
+  - component: {fileID: 1013190147}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -270,6 +271,60 @@ MonoBehaviour:
   m_BeforeTransparentBundles: []
   m_BeforeStackBundles: []
   m_AfterStackBundles: []
+--- !u!114 &1013190147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5323855054794962159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d234c2e5c7b7c7e41be87d7745146472, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toggleScreenModeKey:
+    m_Name: Toggle Screen Mode Key
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: a8dc2947-fcfa-42f9-ac16-9c35668f18d4
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: b06b298f-645b-455d-8857-6d66f65afa49
+      m_Path: <Keyboard>/f11
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Toggle Screen Mode Key
+      m_Flags: 0
+    m_Flags: 0
+  closeGameKey:
+    m_Name: Close Game Key
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: e8e9e80f-e106-4ff6-8eaa-f23a7160ed2a
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: e660d23f-098a-4d1c-8c28-45e85ee63206
+      m_Path: <Keyboard>/escape
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Close Game Key
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 97cb9da7-f354-4947-8bcd-8422bddca15e
+      m_Path: <Gamepad>/start
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Close Game Key
+      m_Flags: 0
+    m_Flags: 0
 --- !u!1 &5621765988134913837
 GameObject:
   m_ObjectHideFlags: 0
