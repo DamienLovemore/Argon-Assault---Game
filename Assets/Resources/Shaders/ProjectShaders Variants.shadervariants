@@ -1,0 +1,416 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ProjectShaders Variants
+  m_Shaders:
+  - first: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 66, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 200, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 205, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 10490, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 9000, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9001, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9002, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9003, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9004, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9007, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9101, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9103, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 18001, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 18004, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 6e4ae4064600d784cac1e41a9e6f2e59, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: _DISABLE_SSR_TRANSPARENT _EMISSIVE_COLOR_MAP _MASKMAP _NORMALMAP
+          _NORMALMAP_TANGENT_SPACE
+        passType: 8
+      - keywords: _DISABLE_SSR_TRANSPARENT _EMISSIVE_COLOR_MAP _MASKMAP _NORMALMAP
+          _NORMALMAP_TANGENT_SPACE
+        passType: 12
+      - keywords: DECALS_3RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_OFF _DISABLE_SSR_TRANSPARENT
+          _EMISSIVE_COLOR_MAP _MASKMAP _NORMALMAP _NORMALMAP_TANGENT_SPACE
+        passType: 13
+      - keywords: _DISABLE_SSR_TRANSPARENT _EMISSIVE_COLOR_MAP _MASKMAP _NORMALMAP
+          _NORMALMAP_TANGENT_SPACE
+        passType: 13
+  - first: {fileID: 4800000, guid: 2fcfb8d92f45e4549b3f0bad5d0654bf, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 02ae56f4306413c4a96dcf005cde1971, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 2e37131331fbdca449b1a2bc47a639ca, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 035941b63024d1943af48811c1db20d9, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 8ea49ef16606acd489439e676ab84040, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 42dfcc8fe803ece4096c58630689982f, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: e22fc1942c664490980b8793dd4a163d, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 67d6171b0acc6554aad48c845ec7e67f, type: 3}
+    second:
+      variants:
+      - keywords: CHECKERBOARD_DOWNSAMPLE
+        passType: 0
+  - first: {fileID: 4800000, guid: 2ad7ce40f0dbaf64dadef1f58d8524d3, type: 3}
+    second:
+      variants:
+      - keywords: NEAREST_DEPTH
+        passType: 0
+  - first: {fileID: 4800000, guid: 123ed592ad5c2494b8aed301fd609e7b, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 32f724728cf19904291226f239ec16f0, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 9bd32a6ece529fd4f9408b8d7e00c10d, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: USE_CLUSTERED_LIGHTLIST
+        passType: 0
+      - keywords: USE_FPTL_LIGHTLIST
+        passType: 0
+  - first: {fileID: 4800000, guid: 123f13d52852ef547b2962de4bd9eaad, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 3b3bf235775cf8b4baae7f3306787ab0, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: d279c46a545b0af4f9f0c4fa82cd489e, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: a6402c19b020b4a4fb7073aaa2e26aba, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: e3cab24f27741f44d8af1e94d006267c, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: fd532bf1795188c4daaa66ea798b8b0a, type: 3}
+    second:
+      variants:
+      - keywords: DECAL_SURFACE_GRADIENT
+        passType: 0
+  - first: {fileID: 4800000, guid: 5ac9ef0c50282754b93c7692488e7ee7, type: 3}
+    second:
+      variants:
+      - keywords: APPLY_AFTER_POST
+        passType: 0
+      - keywords: APPLY_AFTER_POST DITHER
+        passType: 0
+  - first: {fileID: 4800000, guid: 3dd9fd928fdb83743b1f27d15df22179, type: 3}
+    second:
+      variants:
+      - keywords: HIGH_QUALITY
+        passType: 0
+  - first: {fileID: -6465566751694194690, guid: d70362447f22cc44b991a629e9d7c548, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: _ALPHATEST_ON _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON
+        passType: 8
+      - keywords: DECALS_3RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_OFF _ALPHATEST_ON
+          _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON
+        passType: 13
+      - keywords: _ALPHATEST_ON _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON
+        passType: 13
+  - first: {fileID: -6465566751694194690, guid: d8610798fcbf5dd49903e6fe699f9bc3, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: _ALPHATEST_ON _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON
+        passType: 8
+      - keywords: DECALS_3RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_OFF _ALPHATEST_ON
+          _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON
+        passType: 13
+      - keywords: _ALPHATEST_ON _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON
+        passType: 13
+  - first: {fileID: 4800000, guid: eb607f5e8fc16e140b732f33d26c8c31, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: INSTANCING_ON _TERRAIN_INSTANCED_PERPIXEL_NORMAL
+        passType: 8
+      - keywords: _MASKMAP _NORMALMAP _TERRAIN_8_LAYERS _TERRAIN_INSTANCED_PERPIXEL_NORMAL
+        passType: 8
+      - keywords: _TERRAIN_INSTANCED_PERPIXEL_NORMAL
+        passType: 8
+      - keywords: DECALS_3RT DECAL_SURFACE_GRADIENT DIRLIGHTMAP_COMBINED LIGHTMAP_ON
+          PROBE_VOLUMES_OFF _MASKMAP _NORMALMAP _TERRAIN_8_LAYERS _TERRAIN_INSTANCED_PERPIXEL_NORMAL
+        passType: 13
+      - keywords: _MASKMAP _NORMALMAP _TERRAIN_8_LAYERS _TERRAIN_INSTANCED_PERPIXEL_NORMAL
+        passType: 13
+  - first: {fileID: -6465566751694194690, guid: b77edf8dea9b2b44faa310a95408ae3f, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: _ALPHATEST_ON _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON
+        passType: 8
+      - keywords: DECALS_3RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_OFF _ALPHATEST_ON
+          _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON
+        passType: 13
+      - keywords: _ALPHATEST_ON _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON
+        passType: 13
+  - first: {fileID: -6465566751694194690, guid: 0aa97a9fb1a0be4419288c564734a85a, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: _ALPHATEST_ON _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON
+        passType: 8
+      - keywords: DECALS_3RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_OFF _ALPHATEST_ON
+          _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON
+        passType: 13
+      - keywords: _ALPHATEST_ON _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON
+        passType: 13
+  - first: {fileID: -6465566751694194690, guid: 9c9e254d1a4797a4290aa465fc5c1ed6, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: _ALPHATEST_ON _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON
+        passType: 8
+      - keywords: DECALS_3RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_OFF _ALPHATEST_ON
+          _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON
+        passType: 13
+      - keywords: _ALPHATEST_ON _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON
+        passType: 13
+  - first: {fileID: -6465566751694194690, guid: 803cfbc3cc479ca4fb576b929510cfbb, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: _ALPHATEST_ON _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON
+        passType: 8
+      - keywords: DECALS_3RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_OFF _ALPHATEST_ON
+          _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON
+        passType: 13
+      - keywords: _ALPHATEST_ON _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON
+        passType: 13
+  - first: {fileID: -6465566751694194690, guid: c27d22fe23b1d064db2a8f181e4cd7d5, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: _DISABLE_SSR_TRANSPARENT
+        passType: 8
+      - keywords: DECALS_3RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_OFF _DISABLE_SSR_TRANSPARENT
+        passType: 13
+      - keywords: _DISABLE_SSR_TRANSPARENT
+        passType: 13
+  - first: {fileID: -6465566751694194690, guid: 01e71afbab62c8a4b88460d27b84ee20, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: _ALPHATEST_ON _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON
+        passType: 8
+      - keywords: DECALS_3RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_OFF _ALPHATEST_ON
+          _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON
+        passType: 13
+      - keywords: _ALPHATEST_ON _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON
+        passType: 13
+  - first: {fileID: -6465566751694194690, guid: d223cec357f825942880b961bb370281, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: _ALPHATEST_ON _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON
+        passType: 8
+      - keywords: DECALS_3RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_OFF _ALPHATEST_ON
+          _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON
+        passType: 13
+      - keywords: _ALPHATEST_ON _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON
+        passType: 13
+  - first: {fileID: -6465566751694194690, guid: 4300ca1d413537b42be2960ba0e995c9, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: _DISABLE_SSR_TRANSPARENT
+        passType: 8
+      - keywords: DECALS_3RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_OFF _DISABLE_SSR_TRANSPARENT
+        passType: 13
+      - keywords: _DISABLE_SSR_TRANSPARENT
+        passType: 13
+  - first: {fileID: -6465566751694194690, guid: 85db3ebd32292754a9e953d92988ffb4, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: _DISABLE_SSR_TRANSPARENT
+        passType: 8
+      - keywords: DECALS_3RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_OFF _DISABLE_SSR_TRANSPARENT
+        passType: 13
+      - keywords: _DISABLE_SSR_TRANSPARENT
+        passType: 13
+  - first: {fileID: -6465566751694194690, guid: 0540f63c717ce6e418ea9ed887552012, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: _DISABLE_SSR_TRANSPARENT
+        passType: 8
+      - keywords: DECALS_3RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_OFF _DISABLE_SSR_TRANSPARENT
+        passType: 13
+      - keywords: _DISABLE_SSR_TRANSPARENT
+        passType: 13
+  - first: {fileID: -6465566751694194690, guid: 63f47e276d5a4ac45bc740701cc64361, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: _DISABLE_SSR_TRANSPARENT
+        passType: 8
+      - keywords: DECALS_3RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_OFF _DISABLE_SSR_TRANSPARENT
+        passType: 13
+      - keywords: _DISABLE_SSR_TRANSPARENT
+        passType: 13
+  - first: {fileID: 4800000, guid: 68e6db2ebdc24f95958faec2be5558d6, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: -6465566751694194690, guid: dfa3b96612ed4df4a97b7fd06217ba23, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: INSTANCING_ON MATERIAL_QUALITY_HIGH _ALPHATEST_ON _BLENDMODE_OFF
+          _DISABLE_DECALS _DISABLE_SSR _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON _REFRACTION_OFF
+        passType: 8
+      - keywords: INSTANCING_ON MATERIAL_QUALITY_HIGH _ALPHATEST_ON _BLENDMODE_OFF
+          _DOUBLESIDED_ON _REFRACTION_OFF
+        passType: 8
+      - keywords: INSTANCING_ON _ALPHATEST_ON _DISABLE_DECALS _DISABLE_SSR _DISABLE_SSR_TRANSPARENT
+          _DOUBLESIDED_ON
+        passType: 8
+      - keywords: DECALS_3RT DECAL_SURFACE_GRADIENT INSTANCING_ON MATERIAL_QUALITY_HIGH
+          PROBE_VOLUMES_OFF _ALPHATEST_ON _DISABLE_DECALS _DISABLE_SSR _DISABLE_SSR_TRANSPARENT
+          _DOUBLESIDED_ON
+        passType: 13
+      - keywords: INSTANCING_ON MATERIAL_QUALITY_HIGH _ALPHATEST_ON _DISABLE_DECALS
+          _DISABLE_SSR _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON
+        passType: 13
+      - keywords: MATERIAL_QUALITY_HIGH _ALPHATEST_ON _DISABLE_DECALS _DISABLE_SSR
+          _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON
+        passType: 13
+  - first: {fileID: 4800000, guid: e96e3b8a4797c8f47b7ae6759a3e66af, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: _TERRAIN_INSTANCED_PERPIXEL_NORMAL
+        passType: 8
+  - first: {fileID: 4800000, guid: 263f12c7593cf8841b5ccdbb717e3389, type: 3}
+    second:
+      variants:
+      - keywords: _MASKMAP _NORMALMAP _TERRAIN_8_LAYERS
+        passType: 0

@@ -5,46 +5,16 @@ using UnityEngine.InputSystem;
 
 public class GameManager : MonoBehaviour
 {
-    [Header("Game Shortcuts")]
-    [SerializeField] private InputAction toggleScreenModeKey;
-    [SerializeField] private InputAction closeGameKey;
-
-    //When the script becomes enabled and active, sets the keys
-    //of inputs to be listened
-    void OnEnable() 
-    {
-        toggleScreenModeKey.Enable();
-        closeGameKey.Enable();
-    }
-
-    //When the script is disabled/unloaded disables the keys
-    //listening for player inputs
-    void OnDisable() 
-    {
-        toggleScreenModeKey.Disable();
-        closeGameKey.Disable();
-    }
-
-    void FixedUpdate() 
-    {
-        this.ProcessShortcuts();
-    }
-
     //Handles the game shortcuts press
-    private void ProcessShortcuts()
+    private void OnProcessShortcuts()
     {
-        //Listen if the player has pressed the keys assigned to one of the
-        //input actions of the shortcuts (0 not pressed, 1 pressed)
-        float toggleScreenInput = this.toggleScreenModeKey.ReadValue<float>();
-        float closeGameInput = this.closeGameKey.ReadValue<float>();
-        
-        if (toggleScreenInput > 0.5)
-        {
-            this.ToggleScreenMode();
-        }
-        else if (closeGameInput > 0.5)
+        if (Keyboard.current.escapeKey.isPressed)
         {
             this.CloseGame();
+        }
+        else if (Keyboard.current.f11Key.isPressed)
+        {
+            this.ToggleScreenMode();
         }
     }
 
